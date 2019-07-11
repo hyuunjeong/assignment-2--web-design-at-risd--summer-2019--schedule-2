@@ -1,10 +1,25 @@
-footer {
-   margin-right: auto;
+body {
+   margin: 2em;
+   font-family: 'Open Sans', sans-serif;
+   line-height: 1.2;
+}
+
+main {
+   margin: 0 2em 0 40%;
 }
 
 h1 {
-   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Prata', serif;
    font-size: 48px;
+}
+
+li {
+   /* top | right | bottom | left */
+   margin: 0 0 0 4em;
+}
+
+footer {
+   margin: 10px 0 0 80%;
 }
 
 /* body {
