@@ -1,0 +1,35 @@
+body {
+   background-color: #222;
+}
+
+div {
+   font-family: 'Muli', sans-serif;
+   font-size: 30px;
+   font-weight: 200;
+   line-height: 2;
+   text-align: left;
+   color: #b9e3e9;
+}
+
+h1 {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 80px;
+   font-weight: 800;
+   line-height: 2;
+   text-align: center;
+   color: #b9e3e9;
+}
+
+h2 {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 80px;
+   font-weight: 800;
+   line-height: 1;
+   text-align: center;
+   color: #222;
+   text-shadow:
+      -1px -1px 0 #b9e3e9,
+      1px -1px 0 #b9e3e9,
+      -1px 1px 0 #b9e3e9,
+      1px 1px 0 #b9e3e9;
+}
