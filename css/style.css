@@ -1,5 +1,5 @@
 html {
-   background: #91cfa8;
+   background: #fff;
    margin-left: 0px;
    margin-bottom: 100px;
    font-family: Rajdhani, sans-serif;
@@ -41,7 +41,7 @@ header {
 }
 
 #reviewtext {
-   padding: 40px;
+   padding: 0px;
    clear: both;
    background: #fff;
 }
