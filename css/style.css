@@ -29,7 +29,7 @@ header {
 
 #sidebar-column-1 {
    float: right;
-   top: -30px;
+   margin-top: 40px;
    width: 250px;
    background: #fff;
    padding: 2em 10px;
