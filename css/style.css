@@ -1,0 +1,55 @@
+html {
+   background: #91cfa8;
+   margin-left: 0px;
+   margin-bottom: 100px;
+   font-family: Rajdhani, sans-serif;
+   font-size: 1rem;
+}
+
+#container {
+   margin: auto;
+   width: 80%;
+   height: 100vh;
+}
+
+#header {
+   font-family: Electrolize, sans-serif;
+   text-align: left;
+   font-size: 2.9rem;
+   font-variant: small-caps;
+   background: #36a9a4;
+   padding: .00001em 10px;
+}
+
+#album-cover {
+   float: left;
+   line-height: 5rem;
+}
+
+#sidebar-column-1 {
+   float: right;
+   width: 250px;
+   background: #fff;
+   padding: 2em 10px;
+}
+
+#sidebar-column-2 {
+   float: right;
+   width: 250px;
+   background: #fff;
+   padding: 2em 10px;
+}
+
+#reviewtext {
+   padding: 40px;
+   clear: both;
+   background: #fff;
+}
+
+blockquote {
+   font-family: Electrolize, sans-serif;
+   font-size: 2.7rem;
+   background: #36a9a4;
+   padding: 1em 10px;
+   float: right;
+}
