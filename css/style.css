@@ -10,24 +10,18 @@ body {
 
 .parallax {
    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(0, 0, 0, .5)), url('../img/freeimage-4990348-web.jpg');
-   background-size: auto 100%;
+   background-size: cover;
    background-attachment: fixed;
    margin: 0;
 }
 
-.container {
-   margin: 0 2em;
-}
-
-.enterance {
+#scroll1 {
    margin: auto;
    width: 90%;
    text-align: center;
+   /* border: .5px solid #aaa; */
+   padding: 1em;
 }
-
-/* .list1 {
-   text-align: center;
-} */
 
 h1 {
    font-family: Prata, serif;
@@ -38,12 +32,12 @@ footer {
    margin: 10px 10% 0 70%;
 }
 
-main {
+#reviews {
    margin: 0 5% 0 40%;
    text-align: right;
 }
 
-.list2 {
+#list2 {
    text-align: left;
    margin-left: 55%;
 }
