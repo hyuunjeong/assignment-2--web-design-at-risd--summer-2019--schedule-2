@@ -10,7 +10,6 @@ body {
 
 nav {
    font-family: Prata, serif;
-
 }
 
 .parallax {
@@ -23,15 +22,18 @@ nav {
 }
 
 .inside {
-   background: rgba(255, 255, 255, .3);
+   background: rgba(255, 255, 255, .2);
    margin: 40vh auto;
    padding: 1em;
+   max-width: 550px;
 }
 
-#scroll1 {
+.scroll-type-1 {
+   background: rgba(255, 255, 255, .3);
    text-align: center;
    border: .5px solid #aaa;
-   padding: .5em;
+   padding: 1em;
+   /* max-width: 624px; */
 }
 
 h1 {
