@@ -8,24 +8,36 @@ body {
    line-height: 1.2;
 }
 
+nav {
+   font-family: Prata, serif;
+
+}
+
 .parallax {
    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(0, 0, 0, .5)), url('../img/freeimage-4990348-web.jpg');
    background-size: cover;
    background-attachment: fixed;
-   margin: 0;
+   scroll-snap-type: y mandatory;
+   overflow-y: scroll;
+   /* display: flex; */
+}
+
+.inside {
+   background: rgba(255, 255, 255, .3);
+   margin: 40vh auto;
+   padding: 1em;
 }
 
 #scroll1 {
-   margin: auto;
-   width: 90%;
    text-align: center;
-   /* border: .5px solid #aaa; */
-   padding: 1em;
+   border: .5px solid #aaa;
+   padding: .5em;
 }
 
 h1 {
    font-family: Prata, serif;
    font-size: 48px;
+   /* padding: em 0; */
 }
 
 footer {
@@ -35,6 +47,10 @@ footer {
 #reviews {
    margin: 0 5% 0 40%;
    text-align: right;
+}
+
+ul {
+   list-style-type: none;
 }
 
 #list2 {
