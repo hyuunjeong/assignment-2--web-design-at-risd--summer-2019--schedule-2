@@ -1,0 +1,115 @@
+/* @font-face {
+   font-family: 'walter_turncoat';
+   src:
+      url('../fonts/WalterTurncoat-Regular.woff2') format('woff2'),
+      url('../fonts/WalterTurncoat-Regular.woff') format('woff');
+   font-weight: 100;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'rock_salt';
+   src:
+      url('../fonts/RockSalt-Regular.woff2') format('woff2'),
+      url('../fonts/RockSalt-Regular.woff') format('woff');
+   font-weight: 100;
+   font-style: normal;
+} */
+
+/* everything above are CSS for fonts */
+
+/* video {
+   display: block;
+   margin: 0 auto;
+} */
+
+.video {
+   text-align: center;
+}
+
+/* everything above are about media and music */
+
+nav + #Background {
+   margin-top: 40px;
+}
+
+ul {
+   list-style-type: lower-greek;
+   /* margin-left: 140px; */
+}
+
+#Background {
+   margin-top: 3em;
+   margin-bottom: 3em;
+}
+
+#Album {
+   margin-top: 3em;
+   margin-bottom: 3em;
+}
+
+#Reviews {
+   margin-top: 3em;
+   margin-bottom: 3em;
+}
+
+#Contact {
+   margin-top: 3em;
+   margin-bottom: 3em;
+}
+
+/* Everything above are CSS for the navigation bar */
+
+html {
+   background-color: #000;
+}
+
+h1 {
+   text-align: center;
+   font-size: 48px;
+   font-variant: small-caps;
+   font-family: 'Rock Salt', fantasy;
+   font-weight: 400;
+   color: #fff;
+   border-radius: 20em;
+   background-color: #000;
+}
+
+h2 {
+   font-family: 'Rock Salt', fantasy;
+   font-size: 28px;
+   padding-left: 2em;
+   color: #fff;
+}
+
+/* p.drop-cap:first-letter {
+   font-size: 2.5em;
+   font-weight: 400;
+   float: none;
+} */
+
+p {
+   font-family: 'Cabin', sans-serif;
+   font-size: 16px;
+   color: #fff;
+   line-height: 2em;
+   padding-left: 15em;
+   padding-right: 15em;
+}
+
+hr {
+   color: #fff;
+   display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid #ccc;
+   margin: 1em 0;
+   padding: 0;
+}
+
+.intro {
+   text-align: center;
+   font-size: 18px;
+   font-family: 'Walter Turncoat', cursive;
+   line-height: 3em;
+}
