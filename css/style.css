@@ -49,9 +49,9 @@ nav > ul > li {
 
 #link2 {
    background: transparent;
-   padding: calc(50vh - 165.5px) calc(50vw - 291px);
+   padding: calc(50vh - 326px) calc(50vw - 291px);
    position: absolute;
-   top: 250vh;
+   top: 200vh;
    width: 550px;
    height: 652px;
 }
@@ -64,7 +64,7 @@ nav > ul > li {
 }
 
 #following {
-   padding-top: 75vh;
+   padding-top: 100vh;
 }
 
 .inside1 {
