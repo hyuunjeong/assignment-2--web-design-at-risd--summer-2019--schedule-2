@@ -8,24 +8,41 @@ body {
    line-height: 1.2;
 }
 
+.parallax {
+   background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(0, 0, 0, .5)), url('../img/Arvo_Part_Kaupo_Kikkas.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0% 18%;
+}
+
 nav {
    font-family: Prata, serif;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   background-color: rgba(255, 255, 255, .2);
 }
 
-.parallax {
-   background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(0, 0, 0, .5)), url('../img/freeimage-4990348-web.jpg');
-   background-size: cover;
-   background-attachment: fixed;
-   scroll-snap-type: y mandatory;
-   overflow-y: scroll;
-   /* display: flex; */
+nav > ul {
+   margin: 0 auto;
+   width: 560px;
+   list-style-type: none;
 }
 
-.inside {
+nav > ul > li {
+   text-align: center;
+   width: 140px;
+   height: 40px;
+   line-height: 40px;
+   display: inline-block;
+}
+
+.inside1 {
    background: rgba(255, 255, 255, .2);
-   margin: 40vh auto;
+   margin: 40vh 14vw 10vh auto;
    padding: 1em;
-   max-width: 550px;
+   width: 550px;
 }
 
 .scroll-type-1 {
@@ -33,7 +50,6 @@ nav {
    text-align: center;
    border: .5px solid #aaa;
    padding: 1em;
-   /* max-width: 624px; */
 }
 
 h1 {
@@ -46,23 +62,25 @@ footer {
    margin: 10px 10% 0 70%;
 }
 
-#reviews {
-   margin: 0 5% 0 40%;
-   text-align: right;
+.inside2 {
+   background: rgba(255, 255, 255, .2);
+   margin: 40vh 14vw 10vh auto;
+   padding: 1em;
+   width: 550px;
 }
 
-ul {
-   list-style-type: none;
+.scroll-type-2 {
+   text-align: left;
+   padding: 1em;
 }
 
 #list2 {
-   text-align: left;
-   margin-left: 55%;
+   margin-left: 8%;
 }
 
 h2 {
    font-family: Prata, serif;
-   font-size: 24px;
+   font-size: 30px;
    font-variant: small-caps;
 }
 
