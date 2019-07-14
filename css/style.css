@@ -5,11 +5,12 @@ body {
 }
 
 .parallax {
-   background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(0, 0, 0, .5)), url('../img/Arvo_Part_Kaupo_Kikkas.jpg');
-   background-size: auto 100%;
+   background: linear-gradient(to left, rgba(255, 255, 255, 10), rgba(0, 0, 0, .5)), url('../img/Arvo_Part_Kaupo_Kikkas.jpg');
+   background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
    /* background-position: 0% 50%; */
+   height: 3800px;
 }
 
 nav {
@@ -29,7 +30,7 @@ nav > ul > li {
    text-align: center;
 }
 
-.inside3 {
+.inside2 {
    background: rgba(255, 255, 255, .2);
    margin: calc(50vh - 165.5px) calc(50vw - 291px);
    position: absolute;
@@ -74,13 +75,13 @@ footer {
    margin: 10px 10% 0 70%;
 }
 
-.inside2 {
+.inside3 {
    background: rgba(255, 255, 255, .2);
    margin: 40vh auto 10vh;
    padding: 1em;
    width: 550px;
    position: relative;
-   top: 50vh;
+   top: 150vh;
 }
 
 .scroll-type-2 {
@@ -97,6 +98,7 @@ h2 {
    font-family: Prata, serif;
    font-size: 30px;
    font-variant: small-caps;
+   padding-bottom: 10px;
 }
 
 a {
