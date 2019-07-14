@@ -5,12 +5,12 @@ body {
 }
 
 .parallax {
-   background: linear-gradient(to left, rgba(255, 255, 255, 10), rgba(0, 0, 0, .5)), url('../img/Arvo_Part_Kaupo_Kikkas.jpg');
+   background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(0, 0, 0, .5)), url('../img/Arvo_Part_Kaupo_Kikkas.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
    /* background-position: 0% 50%; */
-   height: 3800px;
+   height: 4900px;
 }
 
 nav {
@@ -32,11 +32,39 @@ nav > ul > li {
 
 .inside2 {
    background: rgba(255, 255, 255, .2);
-   margin: calc(50vh - 165.5px) calc(50vw - 291px);
+   /* margin: calc(50vh - 165.5px) calc(50vw - 291px); */
    position: absolute;
    padding: 1em;
-   top: 80vh;
+   /* top: 80vh; */
    width: 550px;
+}
+
+#link1 {
+   background: transparent;
+   padding: calc(50vh - 165.5px) calc(50vw - 291px);
+   position: absolute;
+   top: 100vh;
+   width: 550px;
+}
+
+#link2 {
+   background: transparent;
+   padding: calc(50vh - 165.5px) calc(50vw - 291px);
+   position: absolute;
+   top: 250vh;
+   width: 550px;
+   height: 652px;
+}
+
+.inside3 {
+   background: rgba(255, 255, 255, .2);
+   padding: 1em;
+   width: 550px;
+   position: absolute;
+}
+
+#following {
+   padding-top: 75vh;
 }
 
 .inside1 {
@@ -73,15 +101,6 @@ h1 {
 
 footer {
    margin: 10px 10% 0 70%;
-}
-
-.inside3 {
-   background: rgba(255, 255, 255, .2);
-   margin: 40vh auto 10vh;
-   padding: 1em;
-   width: 550px;
-   position: relative;
-   top: 150vh;
 }
 
 .scroll-type-2 {
