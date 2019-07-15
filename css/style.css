@@ -113,3 +113,91 @@ hr {
    font-family: 'Walter Turncoat', cursive;
    line-height: 3em;
 }
+
+.highlightbloodred {
+   background-color: #bb0a1e;
+}
+
+.italic {
+   font-style: italic;
+}
+
+.twenty-eightpx {
+   font-size: 28px;
+}
+
+.imagetext {
+   color: #ccc;
+   text-align: center;
+   font-size: 16px;
+   font-family: 'Walter Turncoat', cursive;
+}
+
+.center {
+   text-align: center;
+}
+
+img.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0;
+}
+
+.img1 {
+   float: left;
+   display: block;
+   margin-left: 12em;
+   margin-right: 0;
+   margin-top: 0;
+   height: 270px;
+   width: 472.5px;
+}
+
+.img2 {
+   float: right;
+   display: block;
+   margin-left: 0;
+   margin-right: 12em;
+   margin-top: 0;
+   height: 270px;
+   width: 405px;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+}
+
+.wrapper > div:first-child {
+   margin-right: 15px;
+}
+
+.wrapper img {
+   display: block;
+   max-width: 100%;
+}
+
+.AlbumImage {
+   background-image: url('../img/Dysnomia.png');
+}
+
+.col-wrapper {
+   width: 960px;
+   margin: 0 auto;
+}
+
+.col {
+   margin: 0 10px;
+   float: left;
+   display: inline;
+}
+
+.col-670 {
+   width: 670px;
+}
+
+.col-250 {
+   width: 250px;
+}
