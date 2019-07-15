@@ -1,0 +1,81 @@
+h1 {
+   font-size: 50px;
+   color: white;
+   background-color: black;
+   border: solid 10px red;
+   text-align: center;
+   padding: 25px;
+}
+
+h2 {
+   font-size: 30px;
+   color: white;
+   background-color: black;
+   border: solid red;
+   text-align: center;
+   margin: 50px;
+   position: relative;
+   left: 0;
+   width: 400px;
+   padding: 10px;
+}
+
+h3 {
+   font-size: 25px;
+   color: white;
+   background-color: black;
+   border: solid red;
+   text-align: center;
+   margin: 50px;
+   position: relative;
+   left: 0;
+   width: 200px;
+   padding: 10px;
+}
+
+body {
+   background-color: black;
+   background-image: url('../img/background.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+p {
+   color: white;
+   background-color: black;
+   margin: 0 40px;
+   padding: 25px;
+   font-size: 25px;
+   text-align: left;
+}
+
+ul {
+   color: white;
+   background-color: black;
+   padding: 10px;
+   text-align: left;
+   width: 800px;
+   margin: 50px;
+   margin-left: 80px;
+   font-size: 25px;
+   list-style-type: decimal;
+}
+
+.members {
+   display: flex;
+   width: auto;
+   height: auto;
+   justify-content: center;
+   border: solid 10px red;
+}
+
+.names {
+   display: flex;
+   width: auto;
+   height: auto;
+   justify-content: space-between;
+}
+
+#h2members {
+   margin-top: 1275px;
+}
