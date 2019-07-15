@@ -1,33 +1,96 @@
 body {
    background-color: black;
+   background-image: url('img/maxresdefault (1).jpg');
    border: 0;
    margin: 0;
    padding: 0;
 }
 
-h1 {
-   position: sticky;
-   background-color: green;
-   color: white;
-   height: auto;
-   font-size: 64px;
-   width: 100%;
-   text-align: center;
-   margin-top: 120px;
+nav {
+   position: absolute;
+   font-size: 60px;
+   z-index: 4;
+   font-family: Poppins, sans-serif;
 }
 
 .video-container {
-   width: 100%;
    position: relative;
-   margin-top: 0;
-   margin-left: 100px;
-   z-index: 0;
+   width: 100%;
+   margin: auto;
    top: 0;
    left: 0;
 }
 
+h1 {
+   position: fixed;
+   color: lightblue;
+   width: 90%;
+   font-size: 59px;
+   text-align: right;
+   margin-top: 100px;
+   right: 100px;
+   z-index: 4;
+   font-family: Poppins, sans-serif;
+}
+
+h5 {
+   position: fixed;
+   color: lightblue;
+   width: 100%;
+   height: 1350px;
+   font-size: 30px;
+   text-align: right;
+   margin-top: 200px;
+   right: 100px;
+   z-index: 4;
+   font-family: Poppins, sans-serif;
+   line-height: 40px;
+}
+
+.none {
+   position: relative;
+}
+
+.boy1 img {
+   position: absolute;
+   z-index: 5;
+   width: 400px;
+   margin: 500px;
+   margin-top: 360px;
+   align-items: center;
+}
+
+.boy2 img {
+   position: absolute;
+   z-index: 6;
+   width: 400px;
+   margin: 800px;
+   margin-top: 630px;
+   align-items: center;
+}
+
+h2 {
+   position: absolute;
+   background-color: rgba(160, 255, 222, .1);
+   color: orange;
+   font-size: 30px;
+   width: 90%;
+   height: 130%;
+   text-align: left;
+   margin: auto;
+   z-index: 2;
+   font-family: 'Cardo', serif;
+   font-family: Poppins, sans-serif;
+   padding: 590px 110px;
+   line-height: 240px;
+   word-spacing: .2px;
+   text-transform: uppercase;
+   font-style: italic;
+}
+
 .section {
    position: relative;
+   margin: 0;
    width: 100%;
    height: 100vh;
    display: flex;
@@ -35,39 +98,57 @@ h1 {
    justify-content: center;
    overflow: hidden;
    color: white;
-   z-index: 0;
 }
-
-.intro h2 {
-   width: 300px;
-   background-color: transparent;
-   height: 150px;
-   color: white;
-   font-size: 15px;
-   text-align: left;
-   top: 2000px;
-   padding: 500px 30px 30px 140px;
-   line-height: 2;
-   z-index: 1;
-}
-
 
 .song-containers {
    width: 100%;
    height: 10000 px;
-   background-color: red;
+   background-color: orange;
    margin: 20px;
 }
 
-.songs h3 {
+.imagecover p {
+   text-align: left;
+   position: absolute;
+   font-size: 1.4rem;
+   width: 100%;
+   margin: auto;
+   color: white;
+   font-family: Poppins, sans-serif;
+}
+
+.intro h3 {
+   position: absolute;
+   width: 300px;
+   background-color: transparent;
+   height: 100px;
+   color: white;
+   font-size: 15px;
+   text-align: left;
+   top: 390px;
+   left: 30;
+   padding: 1188px 30px 30px 123px;
+   line-height: 2;
+   z-index: 3;
+}
+
+.imagecover img {
+   margin-top: 390px;
+   align-items: center;
+   margin-left: 123px;
+   margin-bottom: 180px;
+}
+
+.songs h4 {
    background-color: transparent;
    width: 300px;
    height: 10000px;
    text-align: left;
    top: 2000px;
-   font-size: 1 rem;
-   color: lightblue;
+   font-size: 15px;
+   color: #182b26;
    padding: 200px 1000px 0 300px;
    line-height: 2;
    transition: 1s border;
+   z-index: 8;
 }
