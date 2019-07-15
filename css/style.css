@@ -141,7 +141,6 @@ ul {
    border-right: 1px solid #b9e3e9;
 }
 
-
 .othersp {
    font-family: 'Muli', sans-serif;
    font-size: 20px;
@@ -175,4 +174,8 @@ div {
 #image2 {
    object-fit: contain;
    text-align: center;
+}
+
+.indenced {
+   padding-left: 200px;
 }
