@@ -53,7 +53,7 @@ ul {
    margin-bottom: 3em;
 }
 
-#Contact {
+#SocialMedia {
    margin-top: 3em;
    margin-bottom: 3em;
 }
@@ -122,6 +122,11 @@ hr {
    font-style: italic;
 }
 
+.italicright {
+   font-style: italic;
+   text-align: right;
+}
+
 .twenty-eightpx {
    font-size: 28px;
 }
@@ -182,7 +187,7 @@ img.center {
 .AlbumImage {
    background-image: url('../img/Dysnomia.png');
 }
-
+/*
 .col-wrapper {
    width: 960px;
    margin: 0 auto;
@@ -200,4 +205,69 @@ img.center {
 
 .col-250 {
    width: 250px;
+} */
+
+/* Style all font awesome icons */
+/* .fa {
+   text-align: center;
+   text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+/* .fa:hover {
+   opacity: 70%;
+   background-color: #fff;
+} */
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+/* .fa-facebook {
+   text-align: center;
+   width: 40px;
+   background: #3b5998;
+   color: white;
+}
+
+/* Twitter */
+/* .fa-twitter {
+   text-align: center;
+   width: 40px;
+   background: #55acee;
+   color: white;
+} */
+
+.SocialMedia {
+   text-align: center;
+   font-size: 30px;
+   color: #fff;
+}
+
+footer {
+   font-size: 16px;
+   color: #000;
+   background-color: #fff;
+   text-align: center;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   left: 0;
+}
+
+.blackfont {
+   color: #000;
+}
+
+.audio {
+   text-align: center;
+}
+
+blockquote {
+   color: #fff;
+   font-family: 'Walter Turncoat', cursive;
+   font-size: 16px;
+   text-align: left;
+   line-height: 2em;
+   padding-left: 15em;
+   padding-right: 15em;
 }
