@@ -1,11 +1,22 @@
+html {
+   border: solid;
+   border-color: orange;
+   border-width: 10px;
+}
+
 body {
    background-color: black;
-   width: 90%;
-   height: 100%;
-   background-image: url('img/maxresdefault (1).jpg');
    border: 0;
    margin: 0;
    padding: 0;
+}
+
+i {
+   font-style: italic;
+}
+
+b {
+   font-style: bold;
 }
 
 .video-container {
@@ -14,15 +25,6 @@ body {
    margin: auto;
    top: 0;
    left: 0;
-}
-
-.borderline {
-   position: absolute;
-   border: dotted line;
-   align-items: center;
-   border-color: orange;
-   z-index: 4;
-   height: 100%;
 }
 
 .none {
@@ -44,7 +46,6 @@ body {
    width: 300px;
    margin: 800px;
    margin-top: 640px;
-   align-items: center;
 }
 
 h2 {
@@ -52,10 +53,9 @@ h2 {
    background-color: rgba(160, 255, 222, .1);
    color: orange;
    font-size: 30px;
-   width: 90%;
-   height: 140%;
+   width: 87%;
+   height: 150%;
    text-align: left;
-   margin: auto;
    z-index: 2;
    font-family: Poppins, sans-serif;
    padding: 480px 110px;
@@ -63,15 +63,13 @@ h2 {
    word-spacing: .2px;
    text-transform: uppercase;
    font-style: italic;
-   border: solid;
-   border-color: orange;
-   border-width: 10px;
+   margin: auto;
 }
 
 .section {
    position: relative;
    margin: 0;
-   width: 1852px;
+   width: 1777px;
    height: 1400px;
    bottom: 135px;
    display: flex;
@@ -83,11 +81,11 @@ h2 {
 
 p {
    position: fixed;
-   color: lightblue;
+   color: rgb(118, 216, 245);
    width: 90%;
    font-size: 108px;
    text-align: right;
-   margin-top: 100px;
+   margin-top: 60px;
    right: 100px;
    z-index: 4;
    font-family: Poppins, sans-serif;
@@ -99,11 +97,10 @@ p:hover {
 
 nav {
    position: fixed;
-   color: lightblue;
    width: 100%;
    height: 1350px;
    text-align: right;
-   margin-top: 220px;
+   margin-top: 200px;
    right: 100px;
    z-index: 4;
    font-family: Poppins, sans-serif;
@@ -135,7 +132,7 @@ nav a:hover {
    position: absolute;
    font-size: 2rem;
    width: 100%;
-   color: white;
+   color: orange;
    font-family: Poppins, sans-serif;
 }
 
@@ -147,18 +144,33 @@ nav a:hover {
    color: lightblue;
    font-size: 15px;
    text-align: left;
-   top: 690px;
+   top: 720px;
    left: 30;
    padding: 888px 30px 30px 140px;
-   line-height: 2;
    z-index: 3;
+   font-family: Poppins, sans-serif;
+   line-height: 18px;
+}
+
+.intro h6 {
+   position: relative;
+   width: 300px;
+   margin: auto;
+   background-color: transparent;
+   height: 100px;
+   color: orange;
+   font-size: 15px;
+   text-align: left;
+   left: 100px;
+   bottom: 340px;
+   z-index: 10;
    font-family: Poppins, sans-serif;
    line-height: 18px;
 }
 
 .imagecover img {
    width: 640px;
-   margin-top: 250px;
+   margin-top: 290px;
    align-items: center;
    margin-left: 123px;
    margin-bottom: 290px;
@@ -166,13 +178,13 @@ nav a:hover {
 
 .songs h4 {
    background-color: transparent;
-   width: 500px;
+   width: 510px;
    color: orange;
    height: auto;
    text-align: left;
    top: 2000px;
    font-size: 15px;
-   padding: 200px 1000px 0 300px;
+   padding: 200px 1000px 0 260px;
    line-height: 2;
    transition: 1s border;
    z-index: 8;
