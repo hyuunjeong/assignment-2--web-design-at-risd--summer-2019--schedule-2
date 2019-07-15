@@ -9,7 +9,13 @@ h3 {
 }
 
 body {
+   margin: 1px 0 400px;
    background-color: #222;
+   background-image: url('../img/31948316288_b2fb437710_odown.jpg');
+   align-items: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: bottom;
 }
 
 h1 {
@@ -63,11 +69,11 @@ h2 {
 }
 
 #image {
-   align-items: center;
    border-left: 1px solid #b9e3e9;
    border-right: 1px solid #b9e3e9;
    margin: -100px 220px;
-   padding: 160px;
+   padding: 110px;
+   text-align: center;
 }
 
 img:hover {
@@ -121,7 +127,7 @@ ul {
    margin-top: 180px;
 }
 
-#quote {
+.quote {
    font-family: 'Open Sans', sans-serif;
    font-size: 32px;
    font-weight: 700;
@@ -135,15 +141,8 @@ ul {
    border-right: 1px solid #b9e3e9;
 }
 
-#image2 {
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   margin: auto;
-   align-items: center;
-}
 
-#othersp {
+.othersp {
    font-family: 'Muli', sans-serif;
    font-size: 20px;
    font-weight: 300;
@@ -166,4 +165,14 @@ ul {
       -1px 1px 0 #b9e3e9,
       1px 1px 0 #b9e3e9;
    margin: 40px 5px 80px;
+}
+
+div {
+   margin: 0;
+   align-items: center;
+}
+
+#image2 {
+   object-fit: contain;
+   text-align: center;
 }
