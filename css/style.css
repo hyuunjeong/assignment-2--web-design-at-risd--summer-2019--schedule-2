@@ -13,36 +13,6 @@ body {
    height: 4900px;
 }
 
-#link2 {
-   background: transparent;
-   padding: calc(50vh - 326px) calc(50vw - 291px);
-   position: absolute;
-   top: 200vh;
-   width: 550px;
-   height: 652px;
-}
-
-#following {
-   padding-top: 10vh;
-}
-
-nav {
-   width: 100vw;
-}
-
-nav > ul {
-   margin: 0 calc(50vw - 175px);
-   background-color: rgba(255, 255, 255, .2);
-}
-
-nav > ul > li {
-   height: 40px;
-   width: 170px;
-   line-height: 40px;
-   display: inline-block;
-   text-align: center;
-}
-
 .inside1 {
    background: rgba(255, 255, 255, .2);
    position: absolute;
@@ -112,6 +82,19 @@ h2 {
 
 footer {
    margin: 10px 10% 0 70%;
+}
+
+#link2 {
+   background: transparent;
+   padding: calc(50vh - 326px) calc(50vw - 291px);
+   position: absolute;
+   top: 200vh;
+   width: 550px;
+   height: 652px;
+}
+
+#following {
+   padding-top: 10vh;
 }
 
 a {
