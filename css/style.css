@@ -3,22 +3,13 @@ h3 {
    font-size: 20px;
    font-weight: 200;
    line-height: 2;
-   text-align: left;
+   text-align: center;
    color: #b9e3e9;
    margin: 10px 20px;
 }
 
 body {
    background-color: #222;
-}
-
-div {
-   font-family: 'Muli', sans-serif;
-   font-size: 30px;
-   font-weight: 200;
-   line-height: 2;
-   text-align: left;
-   color: #b9e3e9;
 }
 
 h1 {
@@ -44,7 +35,6 @@ h2 {
       1px -1px 0 #b9e3e9,
       -1px 1px 0 #b9e3e9,
       1px 1px 0 #b9e3e9;
-   z-index: 2;
 }
 
 #left {
@@ -72,62 +62,50 @@ h2 {
    line-height: 3.2;
 }
 
-img {
-   position: absolute;
-   margin: auto;
-   left: 0;
-   right: 0;
-   top: 500px;
-   bottom: 0;
-}
-
 #image {
+   align-items: center;
    border-left: 1px solid #b9e3e9;
    border-right: 1px solid #b9e3e9;
-   align-items: center;
    margin: -100px 220px;
-   padding: 400px;
+   padding: 160px;
+}
+
+img:hover {
+   opacity: .5;
+   transition: all 1s;
 }
 
 #container {
-   margin-top: 100px;
+   font-family: 'Muli', sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 1.4;
+   text-align: left;
+   margin: 100px 100px 5px;
 }
 
 #first2p {
-   font-family: 'Muli', sans-serif;
-   font-size: 20px;
-   font-weight: 600;
-   line-height: 1.4;
-   text-align: left;
-   margin: -20px 8px 60px;
    color: #222;
-}
-
-#first2p:hover {
    background-color: #b9e3e9;
-   transition: .6s;
+   margin: 80px -100px;
+   padding: 100px;
 }
 
 b {
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Muli', sans-serif;
    font-weight: 700;
    font-size: 24px;
-   color: #000;
+   color: #1d87aa;
 }
 
 i {
    font-family: 'Muli', sans-serif;
-   font-weight: 600;
+   font-weight: 300;
    font-style: italic;
+   color: #1d87aa;
 }
 
 #background {
-   margin-left: 0;
-   margin-right: 0;
-   padding-left: 5%;
-   padding-right: 10%;
-   padding-top: 7%;
-   padding-bottom: 10%;
    background-image: url('../img/31948316288_b2fb437710_oup.jpg');
    background-size: contain;
    background-repeat: no-repeat;
@@ -147,14 +125,45 @@ ul {
    font-family: 'Open Sans', sans-serif;
    font-size: 32px;
    font-weight: 700;
+   font-style: italic;
    line-height: 1.6;
    text-align: center;
    color: #b9e3e9;
    padding: 10px 200px;
+   margin: 60px 200px;
+   border-left: 1px solid #b9e3e9;
+   border-right: 1px solid #b9e3e9;
 }
 
 #image2 {
-   position: relative;
-   size: contain;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: auto;
+   align-items: center;
+}
 
+#othersp {
+   font-family: 'Muli', sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 1.4;
+   text-align: left;
+   color: #b9e3e9;
+   margin-top: 100px;
+}
+
+#author {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 80px;
+   font-weight: 800;
+   line-height: 1.8;
+   color: #222;
+   text-align: center;
+   text-shadow:
+      -1px -1px 0 #b9e3e9,
+      1px -1px 0 #b9e3e9,
+      -1px 1px 0 #b9e3e9,
+      1px 1px 0 #b9e3e9;
+   margin: 40px 5px 80px;
 }
