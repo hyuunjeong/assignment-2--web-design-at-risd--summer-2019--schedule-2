@@ -5,8 +5,7 @@ h3 {
    line-height: 2;
    text-align: left;
    color: #b9e3e9;
-   margin-left: 20px;
-   margin-top: 10px;
+   margin: 10px 20px;
 }
 
 body {
@@ -48,6 +47,31 @@ h2 {
    z-index: 2;
 }
 
+#left {
+   margin-left: 100px;
+}
+
+#leftnumber {
+   margin-left: 70px;
+   font-size: 16px;
+   font-weight: 200;
+   margin-top: -462px;
+   line-height: 3.2;
+}
+
+#right {
+   margin-left: 810px;
+   margin-top: -300px;
+}
+
+#rightnumber {
+   margin-left: 780px;
+   font-size: 16px;
+   font-weight: 200;
+   margin-top: -462px;
+   line-height: 3.2;
+}
+
 img {
    position: absolute;
    margin: auto;
@@ -58,56 +82,79 @@ img {
 }
 
 #image {
-   border-left: 10px;
-   border-right: 10px;
-   margin-left: 30px;
-   border-left-color: #b9e3e9;
-   border-right-color: #b9e3e9;
+   border-left: 1px solid #b9e3e9;
+   border-right: 1px solid #b9e3e9;
+   align-items: center;
+   margin: -100px 220px;
+   padding: 400px;
 }
 
 #container {
+   margin-top: 100px;
+}
+
+#first2p {
    font-family: 'Muli', sans-serif;
    font-size: 20px;
-   font-weight: 200;
-   line-height: 1.2;
+   font-weight: 600;
+   line-height: 1.4;
    text-align: left;
-   color: #b9e3e9;
+   margin: -20px 8px 60px;
+   color: #222;
+}
+
+#first2p:hover {
+   background-color: #b9e3e9;
+   transition: .6s;
+}
+
+b {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   color: #000;
+}
+
+i {
+   font-family: 'Muli', sans-serif;
+   font-weight: 600;
+   font-style: italic;
+}
+
+#background {
+   margin-left: 0;
+   margin-right: 0;
+   padding-left: 5%;
+   padding-right: 10%;
+   padding-top: 7%;
+   padding-bottom: 10%;
+   background-image: url('../img/31948316288_b2fb437710_oup.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
 }
 
 ul {
    font-family: 'Open Sans', sans-serif;
-   font-size: 30px;
-   font-weight: 400;
+   font-size: 32px;
+   font-weight: 700;
    line-height: 1.6;
    text-align: left;
    color: #b9e3e9;
-   margin-top: 700px;
+   margin-top: 180px;
 }
 
-#left {
-   margin-left: 60px;
+#quote {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 1.6;
+   text-align: center;
+   color: #b9e3e9;
+   padding: 10px 200px;
 }
 
-#right {
-   margin-left: 300px;
-}
-
-#bg {
+#image2 {
    position: relative;
-   top: 700px;
-   left: -10%;
-   width: 100%;
-   z-index: 4;
-}
+   size: contain;
 
-#bg img {
-   position: absolute;
-   width: 120px;
-   top: 20;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   margin: auto;
-   min-width: 100%;
-   min-height: 50%;
 }
