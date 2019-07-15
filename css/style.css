@@ -1,50 +1,28 @@
 body {
    background-color: black;
+   width: 90%;
+   height: 100%;
    background-image: url('img/maxresdefault (1).jpg');
    border: 0;
    margin: 0;
    padding: 0;
 }
 
-nav {
-   position: absolute;
-   font-size: 60px;
-   z-index: 4;
-   font-family: Poppins, sans-serif;
-}
-
 .video-container {
    position: relative;
-   width: 100%;
+   width: 80%;
    margin: auto;
    top: 0;
    left: 0;
 }
 
-h1 {
-   position: fixed;
-   color: lightblue;
-   width: 90%;
-   font-size: 59px;
-   text-align: right;
-   margin-top: 100px;
-   right: 100px;
+.borderline {
+   position: absolute;
+   border: dotted line;
+   align-items: center;
+   border-color: orange;
    z-index: 4;
-   font-family: Poppins, sans-serif;
-}
-
-h5 {
-   position: fixed;
-   color: lightblue;
-   width: 100%;
-   height: 1350px;
-   font-size: 30px;
-   text-align: right;
-   margin-top: 200px;
-   right: 100px;
-   z-index: 4;
-   font-family: Poppins, sans-serif;
-   line-height: 40px;
+   height: 100%;
 }
 
 .none {
@@ -54,18 +32,18 @@ h5 {
 .boy1 img {
    position: absolute;
    z-index: 5;
-   width: 400px;
+   width: 300px;
    margin: 500px;
-   margin-top: 360px;
+   margin-top: 370px;
    align-items: center;
 }
 
 .boy2 img {
    position: absolute;
    z-index: 6;
-   width: 400px;
+   width: 300px;
    margin: 800px;
-   margin-top: 630px;
+   margin-top: 640px;
    align-items: center;
 }
 
@@ -75,24 +53,27 @@ h2 {
    color: orange;
    font-size: 30px;
    width: 90%;
-   height: 130%;
+   height: 140%;
    text-align: left;
    margin: auto;
    z-index: 2;
-   font-family: 'Cardo', serif;
    font-family: Poppins, sans-serif;
-   padding: 590px 110px;
-   line-height: 240px;
+   padding: 480px 110px;
+   line-height: 230px;
    word-spacing: .2px;
    text-transform: uppercase;
    font-style: italic;
+   border: solid;
+   border-color: orange;
+   border-width: 10px;
 }
 
 .section {
    position: relative;
    margin: 0;
-   width: 100%;
-   height: 100vh;
+   width: 1852px;
+   height: 1400px;
+   bottom: 135px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -100,19 +81,60 @@ h2 {
    color: white;
 }
 
+p {
+   position: fixed;
+   color: lightblue;
+   width: 90%;
+   font-size: 108px;
+   text-align: right;
+   margin-top: 100px;
+   right: 100px;
+   z-index: 4;
+   font-family: Poppins, sans-serif;
+}
+
+p:hover {
+   color: orange;
+}
+
+nav {
+   position: fixed;
+   color: lightblue;
+   width: 100%;
+   height: 1350px;
+   text-align: right;
+   margin-top: 220px;
+   right: 100px;
+   z-index: 4;
+   font-family: Poppins, sans-serif;
+   line-height: 40px;
+   transition: 2s;
+}
+
+nav a {
+   font-size: 39px;
+   color: lightblue;
+   text-decoration: none;
+}
+
+nav a:hover {
+   color: orange;
+   text-decoration: none;
+   font-size: 39px;
+}
+
 .song-containers {
    width: 100%;
    height: 10000 px;
-   background-color: orange;
-   margin: 20px;
+   margin: 0;
 }
 
 .imagecover p {
+   margin-top: 0;
    text-align: left;
    position: absolute;
-   font-size: 1.4rem;
+   font-size: 2rem;
    width: 100%;
-   margin: auto;
    color: white;
    font-family: Poppins, sans-serif;
 }
@@ -122,31 +144,34 @@ h2 {
    width: 300px;
    background-color: transparent;
    height: 100px;
-   color: white;
+   color: lightblue;
    font-size: 15px;
    text-align: left;
-   top: 390px;
+   top: 690px;
    left: 30;
-   padding: 1188px 30px 30px 123px;
+   padding: 888px 30px 30px 140px;
    line-height: 2;
    z-index: 3;
+   font-family: Poppins, sans-serif;
+   line-height: 18px;
 }
 
 .imagecover img {
-   margin-top: 390px;
+   width: 640px;
+   margin-top: 250px;
    align-items: center;
    margin-left: 123px;
-   margin-bottom: 180px;
+   margin-bottom: 290px;
 }
 
 .songs h4 {
    background-color: transparent;
-   width: 300px;
-   height: 10000px;
+   width: 500px;
+   color: orange;
+   height: auto;
    text-align: left;
    top: 2000px;
    font-size: 15px;
-   color: #182b26;
    padding: 200px 1000px 0 300px;
    line-height: 2;
    transition: 1s border;
