@@ -84,6 +84,12 @@ footer {
    margin: 10px 10% 0 70%;
 }
 
+#link1 {
+   /* position: absolute; */
+   width: 550px;
+   margin: 509px 0;
+}
+
 #link2 {
    background: transparent;
    padding: calc(50vh - 326px) calc(50vw - 291px);
