@@ -1,0 +1,24 @@
+a {
+   display: block;
+   transition: 400ms;
+}
+
+a:link {
+   text-decoration: none;
+   color: #fff;
+}
+
+a:visited {
+   color: #fff;
+}
+
+a:hover {
+   /* text-decoration: overline; */
+   color: #000;
+   background-color: #fff;
+   text-decoration: underline;
+}
+
+a:active {
+   background-color: #fff;
+}
