@@ -43,7 +43,7 @@ b {
 
 .boy2 img {
    position: absolute;
-   z-index: 60;
+   z-index: 900;
    width: 300px;
    margin: 800px;
    margin-top: 640px;
@@ -67,17 +67,17 @@ h2 {
    margin: auto;
 }
 
-.video1 {
+.video1 video {
    position: relative;
    margin: 0;
    width: 1900px;
-   height: 1400px;
+   height: 1500px;
    bottom: 100px;
    display: flex;
    align-items: center;
    justify-content: center;
    overflow: hidden;
-   color: white;
+   z-index: 10;
 }
 
 p {
@@ -88,7 +88,7 @@ p {
    text-align: right;
    margin-top: 60px;
    right: 100px;
-   z-index: 800;
+   z-index: 900;
    font-family: Poppins, sans-serif;
 }
 
@@ -98,12 +98,12 @@ p:hover {
 
 nav {
    position: fixed;
-   width: 100%;
+   width: 50%;
    height: 1350px;
    text-align: right;
    margin-top: 200px;
    right: 100px;
-   z-index: 40;
+   z-index: 900;
    font-family: Poppins, sans-serif;
    line-height: 40px;
    transition: 2s;
@@ -193,12 +193,13 @@ nav a:hover {
    padding: 100px 1000px 0 110px;
    line-height: 28px;
    transition: 1s border;
-   z-index: 700;
+   z-index: 800;
 }
 
 .songs a {
    text-decoration: none;
    color: orange;
+   z-index: 800;
 }
 
 .songs a:hover {
@@ -213,5 +214,5 @@ nav a:hover {
    color: orange;
    margin: auto;
    font-family: Poppins, sans-serif;
-   z-index: 40;
+   z-index: 90;
 }
