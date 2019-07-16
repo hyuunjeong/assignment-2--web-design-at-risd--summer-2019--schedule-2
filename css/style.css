@@ -1,0 +1,123 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   line-height: 1.2;
+}
+
+.parallax {
+   background: linear-gradient(to left, rgba(255, 255, 255, 10), rgba(0, 0, 0, .5)), url('../img/Arvo_Part_Kaupo_Kikkas.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   /* background-position: 0% 50%; */
+   height: 4900px;
+}
+
+.inside1 {
+   background: rgba(255, 255, 255, .2);
+   position: absolute;
+   padding: 1em;
+   width: 550px;
+   margin: calc(50vh - 104px) calc(50vw - 291px);
+}
+
+.inside2 {
+   background: rgba(255, 255, 255, .2);
+   margin: calc(50vh - 165.5px) calc(50vw - 291px);
+   position: absolute;
+   padding: 1em;
+   top: 80vh;
+   width: 550px;
+}
+
+.inside3 {
+   background: rgba(255, 255, 255, .2);
+   margin: 0 auto 10vh;
+   padding: 1em;
+   width: 550px;
+   position: relative;
+   /* top: 150vh; */
+}
+
+.scroll-type-1 {
+   background: rgba(255, 255, 255, .3);
+   text-align: center;
+   border: .5px solid #aaa;
+   padding: 1em;
+}
+
+.scroll-type-2 {
+   text-align: left;
+   background: rgba(255, 255, 255, .5);
+   padding: 1em;
+}
+
+#list1 {
+   background: rgba(255, 255, 255, .3);
+   text-align: center;
+   border: .5px solid #aaa;
+   padding: 1em;
+}
+
+#list1 > ol > li {
+   list-style-type: decimal;
+   margin: 0 1em;
+}
+
+#list2 {
+   margin-left: 8%;
+}
+
+h1 {
+   font-family: Prata, serif;
+   font-size: 48px;
+}
+
+h2 {
+   font-family: Prata, serif;
+   font-size: 30px;
+   font-variant: small-caps;
+   padding-bottom: 10px;
+}
+
+footer {
+   margin: 10px 10% 0 70%;
+}
+
+#link1 {
+   /* position: absolute; */
+   width: 550px;
+   margin: 509px 0;
+}
+
+#link2 {
+   background: transparent;
+   padding: calc(50vh - 326px) calc(50vw - 291px);
+   position: absolute;
+   top: 200vh;
+   width: 550px;
+   height: 652px;
+}
+
+#following {
+   padding-top: 10vh;
+}
+
+a {
+   display: block;
+   width: auto;
+   transition: 300ms;
+}
+
+a:link {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover {
+   background-color: rgba(255, 255, 255, .2);
+}
+
+a:active {
+   background-color: rgba(255, 255, 255, .4);
+}
