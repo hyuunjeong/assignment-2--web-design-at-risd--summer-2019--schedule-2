@@ -1,0 +1,94 @@
+body {
+   font-family: Poppins, sans-serif;
+   background-color: black;
+   background-image: url('../img/girl-shadow-darker.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 100% -64px;
+   background-size: cover;
+}
+
+h1 {
+   font-size: 160px;
+   font-weight: 900;
+   margin: 20px 40px;
+   color: #99bfa3;
+   text-align: center;
+   border: 8px;
+   padding: 1px;
+   line-height: 1;
+}
+
+h2 {
+   font-size: 48px;
+   font-weight: 600;
+   margin: auto;
+   color: #f2dbce;
+   text-align: center;
+   border: 16px;
+   padding: 20px;
+   line-height: 1;
+}
+
+#cover {
+   margin: 10px 10px 10px 250px;
+   padding: 20px;
+   height: 250px;
+   float: left;
+}
+
+ul > li {
+   width: 80%;
+   margin: auto;
+   vertical-align: top;
+   text-align: center;
+   list-style-type: none;
+   font-family: 'PT Serif', serif;
+   color: #5d8c6d;
+}
+
+div:first-of-type {
+   width: 600px;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 32px auto;
+   text-align: center;
+   border: 30px;
+   padding: 10px;
+   line-height: 1;
+}
+
+span.bold {
+   font-weight: 700;
+}
+
+p {
+   font-family: Poppins, serif;
+   font-size: 18px;
+   line-height: 1.4;
+   margin: 40px 90px 10px;
+   color: #f2dbce;
+}
+
+blockquote {
+   width: 30%;
+   float: right;
+   margin: 15px 140px 20px 50px;
+   padding: 0;
+   font-size: 34px;
+   line-height: 32px;
+   font-family: 'PT Serif', serif;
+   color: #5d8c6d;
+}
+
+#left {
+   float: left;
+   margin: 30px 30px 15px 90px;
+}
+
+h3 {
+   font-family: 'PT serif', serif;
+   color: white;
+   margin: 90px;
+   padding: 0 10px 0 0;
+}
