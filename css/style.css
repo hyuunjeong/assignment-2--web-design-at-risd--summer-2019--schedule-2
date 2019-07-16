@@ -47,6 +47,7 @@ p {
    padding: 25px;
    font-size: 25px;
    text-align: left;
+   line-height: 1.5;
 }
 
 ul {
@@ -59,6 +60,7 @@ ul {
    margin-left: 80px;
    font-size: 25px;
    list-style-type: decimal;
+   line-height: 1.5;
 }
 
 .members {
