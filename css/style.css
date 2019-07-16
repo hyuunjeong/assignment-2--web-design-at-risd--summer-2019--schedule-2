@@ -1,12 +1,31 @@
+
 * {
-   line-height: 3;
+   line-height: 1.5;
 }
 
-#band {
+.banner {
+background-color: white
+}
 
-   display: block;
-   width: 1000px;
+.content-container {
+   width: 80%;
    margin: auto;
+   padding: 24px 0;
+   color: black
+ }
+
+
+
+.band {
+
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   height: 250px;
+    transition-property: white opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
 }
 
 #container {
@@ -17,14 +36,20 @@
 
 }
 
+
+
 #songs {
    margin-left:  20%;
-   margin-right:  15%;
-   width: 140px;
-   line-height: 18px;
+   margin-right:  40%;
+   margin-top: 1%;
+   margin-bottom: 5%;
+   width: 130px;
+    line-height: 20px;
    display: block;
-   border: 40px
+   border: 25px
 }
+
+
 
 #container3 {
    display: inline-block;
@@ -71,6 +96,7 @@ h2 {
 }
 
 
+
 hr {
     display: block;
     margin-before: 0.5em;
@@ -85,8 +111,14 @@ hr {
 
 
 h3 {
+            font-family:'Anton', sans-serif;
+            font-size: 150px
             font-weight: 700;
-            margin-left: 400px
+            text-align: center;
+            margin-left: 16px;
+            margin-right: 16px;
+            margin-top: 10px;
+
 
 }
 p {
@@ -95,7 +127,7 @@ p {
    margin-right:  20%;
    padding: 10px;
    border: 40px
-   line-height 70px;
+   line-height 30px;
 }
 
 
@@ -103,7 +135,7 @@ h6 {
    font-family:'Anton', sans-serif;
    font-size border-style;
    margin-top: 0;
-   margin-left:  21%;
+   margin-left:  20%;
    margin-right:  20%;
 
  }
@@ -112,8 +144,10 @@ h6 {
 h4 {
 font-family:'Anton', sans-serif;
 font-size: 100px;
+line-height: 99px;
 margin-left:  20%;
    margin-right:  15%;
    margin-top: 40px;
+   margin-bottom: 3px;
 
  }
