@@ -1,0 +1,120 @@
+body {
+   background-color: #d1d1d1;
+}
+
+h1 {
+   text-align: center;
+   font-size: 3vw;
+   color: white;
+   font-family: sans-serif;
+   line-height: 9vw;
+}
+
+h2 {
+   text-align: center;
+}
+
+h3 {
+   font-size: 1.3vw;
+   font-family: sans-serif;
+   line-height: 3vw;
+}
+
+h4 {
+   font-size: .8vw;
+   font-family: sans-serif;
+   line-height: 1;
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 20vw;
+   height: 100vh;
+   background-color: grey;
+}
+
+nav > ul {
+   position: relative;
+   top: 5vw;
+   left: 2vw;
+   padding: 0;
+   margin: 0;
+}
+
+nav > ul > p {
+   color: white;
+   font-size: 2vw;
+   text-align: center;
+   background-color: grey;
+   padding: 0;
+   margin: 0;
+   width: 16vw;
+   height: 4vw;
+   line-height: 4vw;
+   font-family: sans-serif;
+}
+
+nav > ul > li {
+   background-color: #4a4a4a;
+   padding: 0;
+   margin: 0;
+   border-bottom: 3px solid gray;
+   width: 16vw;
+   height: 3.5vw;
+   text-align: center;
+   line-height: 3.5vw;
+   font-size: .9vw;
+   font-family: sans-serif;
+   display: block;
+}
+
+a {
+   transition: 30ms;
+   color: white;
+   list-style-type: none;
+   text-decoration: none;
+}
+
+li:hover {
+   background-color: grey;
+}
+
+.head {
+   position: fixed;
+   left: 10vw;
+   top: 0;
+   height: 9vw;
+   width: 90vw;
+   line-height: 3vw;
+   background-color: grey;
+   padding: 0;
+   margin: 0;
+}
+
+.para {
+   position: relative;
+   left: 34vw;
+   top: 15vw;
+   width: 40vw;
+   background-color: #c4c4c4;
+   font-family: sans-serif;
+   padding: 3vw;
+   margin: 3vw;
+}
+
+.para > a:nth-child(2) > img {
+   width: 40vw;
+   display: block;
+}
+
+.para > a:nth-child(9) > img {
+   width: 40vw;
+   display: block;
+}
+
+.para > p {
+   font-size: 1.1vw;
+   line-height: 1.2vw;
+}
