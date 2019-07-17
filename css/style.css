@@ -1,0 +1,129 @@
+
+.contain {
+    max-width:900px;
+    text-align:center;
+}
+
+.category {
+   position:relative;
+   display: inline-block;
+   float:left;
+   padding:10px;
+}
+p{
+   line-height: normal;
+   font-size: 16px;
+   font-family: "Merriweather"
+}
+h1{
+   font-size: 25px;
+   font-family: "Gill Sans";
+   width: 400px;
+  margin: 50px 50px;
+  text-align: center;
+  background-color: black);
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px pink;
+}
+body {
+   background-color: black;
+   background-image: url('../img/Line.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 50% 50%;
+   background-size: cover;
+
+}
+
+ol{
+   text-align: center;
+   list-style-position: inside;
+}
+li{
+   font-family: "Merriweather";
+   text-align: center;
+}
+   h1{
+   font-family: "Gill Sans";
+   font-size: 50px;
+   border:solid white;
+   margin: 30px;
+   padding: 15px;
+   width: 700px;
+   margin-left: 250px;
+}
+div{
+   border-radius: 50%;
+}
+.circleimage {
+   margin: 20px;
+   width:150px;
+   height:150px;
+   border-radius: 50%
+}
+#guitar{
+   margin: 50px
+
+}
+#concert{
+
+   padding: 15px;
+   margin: 25px
+}
+p{
+   /* text-align: justify; */
+margin: 20px 50px;
+}
+
+#BBC{
+   margin: 0px;
+}
+
+img.resize {
+  width:200px;
+  height:40px;
+}
+img.resize {
+  max-width:50%;
+  max-height:50%;
+}
+
+img{
+width:50%;
+margin:1px auto;
+display:block;
+}
+
+body {
+   background-color: black;
+   color: white;
+}
++body {
+   /* (2) Include the name of the font below. */
+   font-family: 'Merriweather', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   /* (2) Include the name of the font below. */
+   font-family: Merriweather, serif;
+}
+
+h2{
+   font-family: "Gill Sans";
+   font-size: 30px;
+   margin: 20px 20px
+}
+li{
+   line-height: normal;
+   margin-right: 50px;
+}
+h3{
+   font-size: 25px;
+   font-family: "Gill Sans";
+   margin-right:100px;
+}
