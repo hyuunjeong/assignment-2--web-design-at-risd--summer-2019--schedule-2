@@ -67,7 +67,7 @@ h2 {
    margin: auto;
 }
 
-.video1 video {
+.video1 iframe {
    position: relative;
    margin: 0;
    width: 1900px;
