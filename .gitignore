@@ -1,5 +1,4 @@
-*
-
+*.DS_Store
 !.gitignore
 !README.md
 !index.html
@@ -7,3 +6,4 @@
 !img/
 !css/
 !content/
+!js/
